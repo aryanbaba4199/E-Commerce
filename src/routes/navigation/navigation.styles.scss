@@ -46,6 +46,7 @@
       cursor: pointer;
       display: flex;
       align-items: center;
+      margin-right: 10px;
       justify-content: space-between;
       .avatar {
         width: 40px;
@@ -59,5 +60,9 @@
       background: linear-gradient(red,blue);
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .navItem p{
+      margin-right: 10px;
     }
   }
